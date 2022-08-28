@@ -1,6 +1,6 @@
 #include <iostream>
 #include <cmath>
-#include "mycomplex.h"
+#include "good_mycomplex.h"
 
 using namespace std;
 

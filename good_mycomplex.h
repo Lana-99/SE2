@@ -17,11 +17,11 @@ public:
     ~Complex();
 
     Complex operator + (const Complex &);
-    Complex operator – (const Complex &);
+    Complex operator - (const Complex &);
     Complex operator * (const Complex &);
 
     Complex operator + (const double &);
-    Complex operator – (const double &);
+    Complex operator - (const double &);
     Complex operator * (const double &);
     Complex operator / (const double &);
 
@@ -40,7 +40,7 @@ public:
     friend ostream & operator << (ostream &, Complex &);
 
     friend Complex operator + (const double &, const Complex &);
-    friend Complex operator – (const double &, const Complex &);
+    friend Complex operator - (const double &, const Complex &);
     friend Complex operator * (const double &, const Complex &);
 
     void Set (double a_real, double a_imag = 0);
